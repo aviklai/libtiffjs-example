@@ -3,7 +3,7 @@ const path = require('path');
 const package = require('./package.json');
 
 // variables
-const isProduction = process.argv.indexOf('-p') >= 0 || process.env.NODE_ENV === 'production';
+const isProduction = false;
 const sourcePath = path.join(__dirname, './src');
 const outPath = path.join(__dirname, './build');
 
